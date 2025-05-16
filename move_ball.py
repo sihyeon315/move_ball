@@ -22,6 +22,7 @@ def main(stdscr):
         key = stdscr.getch()
 
         if key == curses.KEY_UP and y > 0:
+
             y -= 1
         elif key == curses.KEY_DOWN and y < height - 1:
             y += 1
